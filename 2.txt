@@ -1,0 +1,25 @@
+movi r0
+150
+movi r1
+0
+movi r2
+1
+movs r0
+load r3
+loop:
+movs r1
+add r2
+movd r4
+movs r2
+movd r1
+movs r4
+movd r2
+movs r4
+sub r3
+jmpdz
+alok
+jmpdp
+loop
+alok:
+stop
+stop
